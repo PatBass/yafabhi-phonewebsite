@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/analytics/libs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/analytics/core" isTestSource="false" packagePrefix="Piwik\" />
+      <sourceFolder url="file://$MODULE_DIR$/analytics/plugins" isTestSource="false" packagePrefix="Piwik\Plugins\" />
+      <sourceFolder url="file://$MODULE_DIR$/analytics/tests/PHPUnit" isTestSource="true" packagePrefix="Piwik\Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/container-interop/container-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/leafo/lessphp" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/mnapoli/php-di" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/mnapoli/phpdocreader" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/mustangostang/spyc" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/piwik/decompress" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/piwik/device-detector" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/piwik/network" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/tedivm/jshrink" />
+      <excludeFolder url="file://$MODULE_DIR$/analytics/vendor/twig/twig" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

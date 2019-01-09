@@ -1,0 +1,86 @@
+/* Small devices (tablets, 768px and up) */
+
+    /* HEADER */
+    #logo {
+        background: url("../images/logo.png") no-repeat 0px 0px;
+        width: 130px;
+        height: 50px;
+        position: relative;
+        left: -10px;
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 20px;
+    }
+
+#nav {
+
+    left:45%;
+    position: relative;
+    /*border: 1px solid yellow;*/
+    top: -71px;
+    font-size: 80%;
+    /*right: 5px!important;
+    height: 70px;*/
+}
+
+   /* #logo, nav {
+        display: inline-block;
+        vertical-align: top;
+
+    }*/
+
+#logo {
+    background: url("../images/logo2.png") no-repeat 0px 0px;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+
+    position: relative;
+    left: 3%;
+
+}
+
+    nav li {
+        display: inline-block;
+        margin-right: 5px;
+        color: #000000;
+
+    }
+
+nav > #nav1 > ul > li {
+    font-family: 'Squada One';
+}
+
+nav > #nav2 > ul > li {
+    font-family: 'Oswald';
+}
+
+    /* SECTION */
+
+    iframe {
+        height: 400px;
+    }
+
+.toggleDiv_home {
+    padding-left: 80px;
+}
+
+
+#slide
+{
+
+
+    height: 275px;
+}
+
+#presentation_wrapper
+{
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+#presentation
+{
+    padding-left: 10%;
+}
+

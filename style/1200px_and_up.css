@@ -1,0 +1,32 @@
+/* Large devices (large desktops, 1200px and up) */
+
+#logo
+{
+    position: relative;
+    left: 1%;
+}
+#nav {
+    position: relative;
+    left:-15%;
+   /* border: 1px solid #000000;*/
+}
+
+nav > #nav1 > ul > li {
+    font-family: 'Squada One';
+}
+
+nav > #nav2 > ul > li {
+    font-family: 'Oswald';
+}
+
+
+iframe {
+    height: 500px;
+}
+
+
+/* SHOP */
+
+.flip .action{
+    width: 300px;
+}

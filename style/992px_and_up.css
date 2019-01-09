@@ -1,0 +1,74 @@
+/* Medium devices (tablets, 992px and up) */
+    
+    /* HEADER */
+    #logo {
+        background: url("../images/logo2.png") no-repeat 0px 0px;
+        width: 130px;
+        height: 50px;
+        position: relative;
+        /*left: 40px;*/
+        margin-top: 20px;
+        overflow: visible;
+            }
+
+#nav {
+
+    position: relative;
+    /*border: 1px solid red;*/
+    top:5px;
+
+    left: -25%;
+}
+
+    #logo, nav {
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+
+
+    nav li {
+        display: inline-block;
+        margin-right: 5px;
+        color: #000000;
+
+    }
+
+nav > #nav1 > ul > li {
+    font-family: 'Squada One';
+}
+
+nav > #nav2 > ul > li {
+    font-family: 'Oswald';
+}
+
+    /* SECTION */
+    iframe {
+        height: 100%;
+        padding: 0;
+        margin-bottom: 0 !important;
+    }
+
+#slide
+{
+    height: 445px;
+    margin-bottom: 0 !important;
+}
+
+#presentation_wrapper
+{
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+#presentation
+{
+    padding-left: 10%;
+}
+
+/* SHOP */
+
+.flip .action{
+    width: 300px;
+}

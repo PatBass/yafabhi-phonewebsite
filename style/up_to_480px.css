@@ -1,0 +1,38 @@
+/* Extra small devices (phones, up to 480px) */
+
+    /* HEADER */
+    #logo {
+        background: url("../images/logo.png") no-repeat 0px 0px;
+        width: 130px;
+        height: 50px;
+        position: relative;
+        left: -230px;
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 20px;
+    }
+
+#nav {
+    position: relative;
+
+    border: 1px solid green;
+}
+
+    #logo, nav {
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+    nav li {
+        display: inline-block;
+        margin-right: 1px;
+        color: #000000;
+
+    }
+
+    /* SECTION */
+
+iframe {
+    height: 230px;
+}

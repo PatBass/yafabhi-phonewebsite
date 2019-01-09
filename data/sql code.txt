@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `upload` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `extension` varchar(255) NOT NULL,
+  `hits` varchar(255) NOT NULL,
+  `ip` varchar(255) NOT NULL,
+  `agent` varchar(255) NOT NULL,  
+  `datetime` datetime NOT NULL,
+  PRIMARY KEY (`id`)  
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;

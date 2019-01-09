@@ -1,0 +1,13 @@
+RewriteEngine On
+
+Options +FollowSymLinks
+RewriteBase /
+#Rewrite Rule when you install the software in a subdomain like   xxx.yourdomain.com
+#In this case you can call the BB and iPhone interface with xxx.yourdomain.com/bb
+
+RewriteRule ^(iphone|bb)(.*)$ $2 [QSA]
+
+#When you install 2-plan Desktop in any sub-directory like   www.yourdomain.com/project 
+#you must use the following Rewrite Rule instead 
+# (replace "project" with your directory name!) and remove the RewriteRule above!
+#RewriteRule ^(iphone|bb)(.*)$ /project/$2 [QSA]

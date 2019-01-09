@@ -1,0 +1,326 @@
+body, html{
+    min-height: 100%;
+}
+
+@keyframes animatedBackground
+{
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+
+body {
+    padding-top: 50px;
+    background-image: url("../images/bgtile.jpg");
+    background-repeat: repeat;
+
+    /*animation: animatedBackground 40s linear infinite;
+    background-size: cover;*/
+}
+
+[class*="col-"] {
+     background-color: rgba(255,255,255,0.3);
+     border: 0px solid black;
+
+     line-height: 40px;
+     text-align: center;
+ }
+/*
+aside div {
+    height: 1000px;
+}
+*/
+aside p:hover {
+  color: #ffffff;
+}
+
+.starter-template{
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.starter-template-modified{
+   /* border: 1px solid #ffffff;*/
+    padding-top: 0px!important;
+    overflow: hidden;
+}
+
+.th{
+    color: #ffffff;
+}
+
+
+
+/* FLIP-CARD */
+
+.flip {
+    width:auto;
+    position:absolute;
+    height:400px;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+}
+
+/*
+.scene3D:hover .flip{
+    -webkit-transform: rotateX(180deg);
+}
+*/
+
+.scene3D{
+    width:auto;
+    position:absolute;
+    height:400px;
+    -webkit-perspective:500px;
+    -moz-perspective:500px;
+    -o-perspective:500px;
+    perspective:500px;
+}
+
+.phone_presentation{
+    position:absolute;
+    transform: perspective(500px) rotateX(0deg);
+    -webkit-transform: perspective(500px) rotateX(0deg);
+    -moz-transform: perspective(500px) rotateX(0deg);
+    -o-transform: perspective(500px) rotateX(0deg);
+    transition:transform 1s ease;
+    -webkit-transition: -webkit-transform 1s ease;
+    -moz-transition: -moz-transform 1s ease;
+    -o-transition: -o-transform 1s ease;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+}
+
+.flip:hover .phone_presentation{
+    transform: perspective(500px) rotateX(180deg);
+    -webkit-transform: perspective(500px) rotateX(180deg);
+    -moz-transform: perspective(500px) rotateX(180deg);
+    -o-transform: perspective(500px) rotateX(180deg);
+}
+
+.flip .action{
+    position:absolute;
+    transform: perspective(500px) rotateX(180deg);
+    -webkit-transform: perspective(500px) rotateX(180deg);
+    -moz-transform: perspective(500px) rotateX(180deg);
+    -o-transform: perspective(500px) rotateX(180deg);
+    transition:transform 1s ease;
+    -webkit-transition: -webkit-transform 1s ease;
+    -moz-transition: -moz-transform 1s ease;
+    -o-transition: -o-transform 1s ease;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+}
+
+.flip:hover  .action {
+    transform: perspective(500px) rotateX(0deg);
+    -webkit-transform: perspective(500px) rotateX(0deg);
+    -moz-transform: perspective(500px) rotateX(0deg);
+    -o-transform: perspective(500px) rotateX(0deg);
+
+}
+
+.flip div{
+    width:auto;height:400px;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+
+}
+.action p{
+    color:white;
+    text-shadow:0 0 1px #111;
+    /*font-style:italic;*/
+    padding-top:50px;
+    text-align:center;
+}
+.flip .action p{
+    /*width:100px;
+    height:100px;
+    background: blue;*/
+    transform: translateZ(500px);
+    -webkit-transform: translateZ(500px);
+    -moz-transform: translateZ(500px);
+    -o-transform: translateZ(500px);
+}
+
+.phone_presentation #wss{
+    color: #ffffff;
+}
+
+/* CART PAGE */
+.cart_pic {
+    background: url("../images/cart_pic.png") no-repeat 490px 5px;
+}
+
+#shopping_image
+{
+    display: inline-block;
+    position: relative;
+    top:-3px;
+    left: -7px;
+}
+
+
+
+/* BUTTON */
+
+.classname {
+    -moz-box-shadow:inset 0px 4px 11px 1px #fce2c1;
+    -webkit-box-shadow:inset 0px 4px 11px 1px #fce2c1;
+    box-shadow:inset 0px 4px 11px 1px #fce2c1;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+    background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+    background-color:#ffc477;
+    -webkit-border-top-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    border-top-left-radius:3px;
+    -webkit-border-top-right-radius:3px;
+    -moz-border-radius-topright:3px;
+    border-top-right-radius:3px;
+    -webkit-border-bottom-right-radius:3px;
+    -moz-border-radius-bottomright:3px;
+    border-bottom-right-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-bottom-left-radius:3px;
+    text-indent:0;
+    border:2px solid #eeb44f;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:25px;
+    line-height:25px;
+    width:131px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:2px 1px 0px #cc9f52;
+}
+.classname:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+    background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+    background-color:#fb9e25;
+}.classname:active {
+     position:relative;
+     top:1px;
+ }
+
+
+/* BUY BUTTON */
+
+.buyButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+    background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+    background-color:#77d42a;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+    text-indent:0;
+    border:1px solid #268a16;
+    display:inline-block;
+    color:#306108;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:28px;
+    line-height:28px;
+    width:141px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #aade7c;
+}
+.buyButton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+    background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+    background-color:#5cb811;
+}.buyButton:active {
+     position:relative;
+     top:1px;
+ }
+
+ /* IFRAME */
+iframe
+{
+    padding: 0;
+}
+
+/* ORDER FORM */
+.value, .label
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+}
+    .flip .action{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+            .container {
+                max-width: 1170px;
+    }
+    .container-modified{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .flip .action{
+        width: 300px;
+    }
+}
+
+/* FOOTER */
+footer
+{
+    /*display: table-row;
+    margin-left:0.01%;
+    margin-right: 0.01%;
+    border-top: 1px solid #ffffff;*/
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    margin:0 auto;
+}
